@@ -1,0 +1,4 @@
+<h3 [ngStyle]="getStyle()">Server with ID {{serverId}} is {{getServerStatus()}}</h3>
+<!-- <app-toogle-button-custom></app-toogle-button-custom> -->
+<button class="btn btn-success" [style]="getStartStopButtonStyle()" (click)="onClickButtonStartStop()">{{serverStatus ? "||" : "||>"}}</button>
+<hr>
