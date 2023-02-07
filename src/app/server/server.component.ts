@@ -4,9 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-server',
   templateUrl: './server.component.html',
   styleUrls: ['./server.component.css'],
+  styles: [`
+    .running{
+      color: white;
+    }
+  `]
 })
 export class ServerComponent {
-  serverId: number = 10;
+  serverId: number = 0;
   serverStatus: boolean = false;
 
   constructor() {

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./servers.component.css'],
 })
 export class ServersComponent {
-  serverList: string[] = [];
+  serverList: string[] = ['TEST', 'DEV', 'PROD', 'STAGE', 'DB-ORACLE'];
   allowNewServer = true;
   newServerName = '';
   serverCreated = false;

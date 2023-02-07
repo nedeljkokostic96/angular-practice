@@ -8,6 +8,4 @@
     <p style="display: inline-block; margin-left: 1em;">No server was created!</p>
 </ng-template>
 <hr>
-<app-server></app-server>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let server of serverList; let i = index"></app-server>
